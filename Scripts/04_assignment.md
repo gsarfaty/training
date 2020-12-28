@@ -12,7 +12,7 @@ One of our treatment advisors has come to you for help. They need to see % TPT c
 
 ### Resources:
 
-* [our previous sessions] (https://github.com/gsarfaty/training)
+* [our previous sessions](https://github.com/gsarfaty/training)
 * [coRps](https://github.com/USAID-OHA-SI/coRps)
 * MER Indicator Reference Guide
 * OHA SI Data Review Guide
