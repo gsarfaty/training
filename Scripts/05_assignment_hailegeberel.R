@@ -98,7 +98,7 @@ map_ken_fsw <- terrain_map(countries = "Kenya", terr_path = si_path(type = "path
   ggtitle("FY20 proxy linkage by psnu among the FSW \n key populations group for Kenya.")
 
 
-print(map_ken_fsw)
+#print(map_ken_fsw)
 
 plot_fsw<-ken_geo %>%
   clean_psnu() %>%
@@ -115,6 +115,9 @@ plot_fsw<-ken_geo %>%
        caption="Taita Taveta, Laikipia, Kajado have NA values.")+
   theme(axis.text.y = element_text(size=8))
 
-print(plot_fsw)
+#print(plot_fsw)
 
 print(map_ken_fsw + plot_fsw) #side by side mapping
+
+ggsave(here("Graphics", "Linkage_Proxy_FSW_Hailegeberel.png"),
+       scale = 1.2, dpi = 310, width = 10, height = 7, units = "in") #save our combined graphic
